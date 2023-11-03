@@ -1,0 +1,49 @@
+.skills .left{
+    margin-top: 25px;
+}
+
+.skills .right p{
+  margin: 15px 0;
+  color: grey;
+  line-height: 30px;
+}
+
+.counter{
+    padding: 80px 0;
+    background-color:#2dbc68;
+}
+
+.counter .box h2{
+    color: #fff;
+    font-size: 45px;
+}
+
+.counter .box p{
+    color: rgb(208, 208, 208);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    .progress{
+        width: 100%;
+    }
+
+    .skills .container.flex{
+        display: block;
+    }
+
+    .skills .left.row,
+    .skills .right.row{
+        width: 100%;
+    }
+
+    .skills .right{
+        margin-top: 70px;
+    }
+
+    .counter .box h2{
+        font-size: 32px;
+    }
+}

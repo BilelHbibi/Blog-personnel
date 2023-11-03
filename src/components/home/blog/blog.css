@@ -1,0 +1,53 @@
+.blog{
+    background-color: #f5f5fb;
+}
+
+.blog img{
+    width: 100%;
+}
+
+.blog .box{
+    background-color: #fff;
+}
+
+.blog .box .text{
+    padding: 30px 30px 20px 30px;
+}
+
+.blog .box .text span{
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+
+.blog .box .text h2{
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.blog .box .text button{
+    color:#15c564;
+    font-size: 15px;
+    border: none;
+    background:none;
+}
+
+.blog .box .text div{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.blog .box .text div .icon{
+    font-size: 15px;
+    color: #15c564;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .blog .grid3{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

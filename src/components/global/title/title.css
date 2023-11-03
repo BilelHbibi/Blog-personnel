@@ -1,0 +1,15 @@
+.global .title {
+    text-align: center;
+}
+
+.global .title h3{
+    color: #12b35d;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.global .title h2{
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom:80px;
+}

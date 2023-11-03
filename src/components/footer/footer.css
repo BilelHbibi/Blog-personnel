@@ -1,0 +1,93 @@
+footer{
+    background-color:#08081d;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+
+footer .title{
+    height: 60px;
+}
+
+footer p{
+   font-size: 17px;
+   line-height: 25px;
+   margin-bottom: 10px;
+}
+
+footer .one .fa-brands{
+    background-color: #fff;
+    border: none;
+}
+
+footer .two ul{
+    list-style-type:disc;
+    list-style-position: inside;
+}
+
+footer .two ul li::marker{
+    color: #15c564;
+}
+
+footer .two ul li{
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+footer .tree .box{
+    margin-bottom: 17px;
+}
+
+footer .tree .box h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+footer .tree .box span{
+    font-size: 12px;
+    color: #15c564;
+}
+
+footer .four div{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+footer .four div i{
+    margin-right: 15px;
+    font-size: 20px;
+    color: #15c564;
+}
+footer .four div p{
+    font-size: 15px;
+}
+
+footer hr{
+    margin-top: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.189);
+}
+
+footer .copywrite{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+footer .copywrite label{
+    color:#15c564;
+}
+
+@media only screen and (max-width:768px) {
+    footer .grid4{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 80px;
+    }
+    footer .title{
+        height: 45px;
+    }
+}
+
+
+
+

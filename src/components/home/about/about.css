@@ -1,0 +1,50 @@
+.about .left{
+    width: 55%;
+}
+
+.about .left .title{
+    text-align-last: left;
+    padding-top: 35px;
+}
+
+.about .left p{
+    font-size: 17px;
+    margin-bottom: 25px;
+    line-height: 32px;
+    color: grey;
+    font-weight: 500;
+    width: 95%;
+}
+
+.about .left p:nth-child(2){
+  margin-top: 30px;
+}
+
+.about .img{
+    background-color: white;
+    width:50%;
+    text-align: center;
+    margin-left: 200px;
+}
+.about .img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width:768px) {
+
+    .about .left{
+        width: 100%;
+    }
+    .about .flex{
+        display: block;
+    }
+    .about .img{
+        width: 100%;
+        background:none;
+        margin-top: 15px;
+    }
+    .about .img img{
+        width: 100%;
+    }
+}

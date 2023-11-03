@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.row{
+  width: 50%;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.flex{
+  display: flex;
+}
+
+.padding{
+  padding: 70px 0;
+}
+
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+}
+
+.grid4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+}
+
+.vert-btn{
+  padding: 15px;
+  width: 30%;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(8, 175, 8);
+  border: none;
+  margin-top: 20px;
+}
+
+.vert-btn:hover{
+  background-color: rgb(255, 111, 231);
+  cursor: pointer;
+}
+
+.flexSB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCR{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fa-brands{
+  margin-right: 10px;
+}
+
+.fa-brands:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.fa-facebook-f{
+  color: blue;
+  border: 1px solid blue;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.fa-facebook-f:hover{
+  background-color: blue !important;
+}
+
+.fa-instagram{
+  color: rgb(212, 108, 108);
+  border: 1px solid rgb(218, 93, 93);
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.fa-instagram:hover{
+  background-color: rgb(212, 108, 108) !important;
+}
+
+.fa-twitter{
+  color: rgb(84, 204, 251);
+  border: 1px solid rgb(84, 204, 251);
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.fa-twitter:hover{
+  background-color: rgb(84, 204, 251) !important;
+}
+
+.fa-youtube{
+  color: red;
+  border: 1px solid red;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.fa-youtube:hover{
+  background-color: red !important;
+}
+
+.fa-google{
+  color: rgb(66, 161, 66);
+  border: 1px solid rgb(66, 161, 66);
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.fa-google:hover{
+  background-color: rgb(66, 161, 66);
+}
+
+.fa-algolia{
+  color: rgb(250, 124, 124);
+  border: 1px solid rgb(250, 124, 124);
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.fa-algolia:hover{
+  background-color: rgb(250, 124, 124);
+}
+
+
+
+
+

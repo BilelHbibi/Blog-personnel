@@ -1,0 +1,62 @@
+header{
+    position: sticky;
+    padding: 10px;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+
+header ul li{
+    margin-right: 28px;
+}
+
+header ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header ul li a:hover{
+    color:#249856;
+}
+
+header button{
+    display: none;
+    font-size: 25px;
+    border: none;
+}
+
+header .list{
+    width: 55%;
+}
+
+header .shop .icon{
+    margin-left: 18px;
+}
+
+@media only screen and (max-width:768px) {
+    header .shop{
+        display: none;
+    }
+    header .list .flex{
+        display: none;
+    }
+    header button{
+        display: block;
+    }
+    header .sidebar{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+    header .sidebar li{
+        margin-top: 20px;
+    }
+    header .sidebar li a{
+        font-size: 20px;
+    }
+    
+}

@@ -1,0 +1,91 @@
+.design .img{
+    width: 45%;
+}
+
+.design .img img{
+    width: 85%;
+    height: 100%;
+}
+
+.design .right{
+    margin-top: 12%;
+    width: 55%;
+    float:inline-end;
+}
+
+.design .right h1{
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.design .right .social{
+    margin-top: 25px;
+}
+
+.design .right p{
+    margin-top: 22px;
+    line-height: 30px;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+/* ------------------DEGITAL------------------- */
+.degital{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-top: -2px;
+    padding: 60px 0;
+}
+
+.degital .box .id h1{
+    color: #37b874;
+    margin-right: 10px;
+}
+
+.degital .box .text h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.degital .box .text p{
+    color: #666678;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+@media only screen and (max-width:768px) {
+
+    .design .flex{
+        display: block;
+    }
+    
+    .design .img{
+        width: 100%;
+    }
+    .design .right{
+        width: 100%;
+    }
+
+    .design .container.flex{
+         display: flex;
+         flex-direction: column-reverse;
+    }
+    .design .img img{
+        width: 100%;
+    }
+    .degital{
+        margin-top: -5px;
+    }
+    .degital .flexSB{
+        display:block;
+    }
+    .degital .box{
+        margin-bottom: 40px;
+    }
+}
+
+

@@ -1,0 +1,82 @@
+.services{  
+  background-color: #f8f9fe;
+}
+
+.services .box{
+    position: relative;
+    margin-bottom: 40%;
+}
+
+.services .box .img{
+    height: 100%;
+}
+
+.services .box img{
+    width: 100%;
+    height: 100%;
+}
+
+.services .box .text{
+    position: absolute;
+    top:92%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    width: 90%;
+    padding: 30px;
+    z-index: 998;
+}
+
+.services .box .text h2{
+    font-size: 25px;
+}
+
+.services .box .text p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
+    color: grey;
+    font-weight: 500;
+}
+
+
+/* ----------EXCLUSIVE------------- */
+.exclusif{
+    background-color: #0a071b;
+    padding: 40px;
+}
+
+
+.exclusif .content{
+    width: 55%;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.exclusif .title h2{
+    color: #fff;
+    margin-bottom: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.exclusif .content p{
+    color: gray;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width:768px) {
+    .services .grid3{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .services .box{
+        margin-bottom: 25%;
+    }
+
+    .exclusif .content{
+        width: 100%;
+    }
+}
